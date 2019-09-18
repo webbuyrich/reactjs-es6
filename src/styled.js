@@ -31,8 +31,28 @@ export const StyleInput = styled.textarea`
 `
 
 export const Button = styled.button`
+  -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:3px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  
+  &:hover{
+    background-color:#eb675e;
+  }
+` 
 
-`
 
 export const Document = styled.div`
   display: flex;
